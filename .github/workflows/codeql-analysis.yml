@@ -79,4 +79,4 @@ jobs:
       - run: dotnet build ./SimpleFeedReader.sln
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql@codeql-cli/v2.15.2
+        uses: github/codeql@v2.15.2
